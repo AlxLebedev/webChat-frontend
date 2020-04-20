@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="nickname-popup">
+    <p>Enter nickname</p>
+    <input type="text" id="nickname-field">
+    <div class="button" id="nickname-submit">OK</div>
+  </div>
+  <div id="error" class="nickname-popup hidden">
+      <p>That nickname is occupied</p>
+      <div class="button" id="error-ok-btn">Ok</div>
+  </div>
+  <div class="messenger-field hidden">
+      <div id="users"></div>
+      <div class="messenger-container">
+          <ul id="messenger-list"></ul>
+          <input type="text" id="message" value="">
+      </div>
+  </div>
+</body>
+</html>
